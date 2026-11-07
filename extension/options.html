@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Link Exporter settings</title>
+    <style>
+      body {
+        font: 13px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        margin: 16px;
+        min-width: 360px;
+        color-scheme: light dark;
+      }
+      fieldset { border: none; padding: 0; margin: 0 0 12px; display: grid; gap: 8px; }
+      label { display: flex; gap: 8px; align-items: flex-start; }
+      small { display: block; opacity: 0.7; }
+      #saved { color: #1f883d; margin-left: 8px; }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+      <label>
+        <input type="checkbox" id="stripTracking" />
+        <span>Remove tracking parameters<small>utm_*, fbclid, gclid, msclkid and similar</small></span>
+      </label>
+      <label>
+        <input type="checkbox" id="dedupe" />
+        <span>Remove duplicate links</span>
+      </label>
+      <label>
+        <input type="checkbox" id="includeFragments" />
+        <span>Keep #fragment links<small>in-page anchors like table-of-contents entries</small></span>
+      </label>
+      <label>
+        <span>Default export format</span>
+        <select id="defaultFormat">
+          <option value="csv">CSV</option>
+          <option value="md">Markdown</option>
+          <option value="txt">URLs</option>
+        </select>
+      </label>
+    </fieldset>
+    <button id="save" type="button">Save</button><span id="saved" hidden>Saved</span>
+    <script type="module" src="options.js"></script>
+  </body>
+</html>

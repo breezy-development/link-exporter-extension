@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Link Exporter",
+  "version": "1.0.0",
+  "description": "List every link on the current page, filter it, and export to CSV, Markdown or plain URLs.",
+  "action": {
+    "default_title": "Export links from this page",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "permissions": ["activeTab", "scripting", "storage"],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": { "default": "Alt+Shift+L" }
+    }
+  }
+}

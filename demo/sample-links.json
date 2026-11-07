@@ -1,0 +1,790 @@
+[
+ {
+  "href": "https://www.python.org/",
+  "text": "Python logo"
+ },
+ {
+  "href": "https://docs.python.org/3/contents.html",
+  "text": "Table of Contents"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#",
+  "text": "csv — CSV file reading and writing"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#module-contents",
+  "text": "Module contents"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#dialects-and-formatting-parameters",
+  "text": "Dialects and formatting parameters"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#reader-objects",
+  "text": "Reader objects"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#writer-objects",
+  "text": "Writer objects"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#examples",
+  "text": "Examples"
+ },
+ {
+  "href": "https://docs.python.org/3/library/fileformats.html",
+  "text": "File Formats"
+ },
+ {
+  "href": "https://docs.python.org/3/library/configparser.html",
+  "text": "configparser — Configuration file parser"
+ },
+ {
+  "href": "https://docs.python.org/3/bugs.html",
+  "text": "Report a bug"
+ },
+ {
+  "href": "https://docs.python.org/3/improve-page.html?pagetitle=csv+%E2%80%94+CSV+file+reading+and+writing&pageurl=https%3A%2F%2Fdocs.python.org%2F3%2Flibrary%2Fcsv.html&pagesource=library%2Fcsv.rst",
+  "text": "Improve this page"
+ },
+ {
+  "href": "https://github.com/python/cpython/blob/3.15/Doc/library/csv.rst?plain=1",
+  "text": "Show source"
+ },
+ {
+  "href": "https://docs.python.org/3/genindex.html",
+  "text": "index"
+ },
+ {
+  "href": "https://docs.python.org/3/py-modindex.html",
+  "text": "modules"
+ },
+ {
+  "href": "https://docs.python.org/3/library/configparser.html",
+  "text": "next"
+ },
+ {
+  "href": "https://docs.python.org/3/library/fileformats.html",
+  "text": "previous"
+ },
+ {
+  "href": "https://www.python.org/",
+  "text": "Python"
+ },
+ {
+  "href": "https://docs.python.org/3/index.html",
+  "text": "3.15.2 documentation"
+ },
+ {
+  "href": "https://docs.python.org/3/library/index.html",
+  "text": "The Python standard library"
+ },
+ {
+  "href": "https://docs.python.org/3/library/fileformats.html",
+  "text": "File Formats"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html",
+  "text": "csv — CSV file reading and writing"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#module-csv",
+  "text": "¶"
+ },
+ {
+  "href": "https://github.com/python/cpython/tree/3.15/Lib/csv.py",
+  "text": "Lib/csv.py"
+ },
+ {
+  "href": "https://datatracker.ietf.org/doc/html/rfc4180.html",
+  "text": "RFC 4180"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.reader",
+  "text": "reader"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.writer",
+  "text": "writer"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.DictReader",
+  "text": "DictReader"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.DictWriter",
+  "text": "DictWriter"
+ },
+ {
+  "href": "https://peps.python.org/pep-0305/",
+  "text": "PEP 305"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#module-contents",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.reader",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#reader-objects",
+  "text": "reader object"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#id4",
+  "text": "[ 1 ]"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Dialect",
+  "text": "Dialect"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.list_dialects",
+  "text": "list_dialects()"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv-fmt-params",
+  "text": "Dialects and formatting parameters"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.QUOTE_NONNUMERIC",
+  "text": "QUOTE_NONNUMERIC"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.writer",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/io.html#io.TextIOBase.write",
+  "text": "write()"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#id4",
+  "text": "[ 1 ]"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Dialect",
+  "text": "Dialect"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.list_dialects",
+  "text": "list_dialects()"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv-fmt-params",
+  "text": "Dialects and formatting parameters"
+ },
+ {
+  "href": "https://docs.python.org/3/builtins/constants.html#None",
+  "text": "None"
+ },
+ {
+  "href": "https://docs.python.org/3/builtins/stdtypes.html#str",
+  "text": "str()"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.register_dialect",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Dialect",
+  "text": "Dialect"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv-fmt-params",
+  "text": "Dialects and formatting parameters"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.unregister_dialect",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Error",
+  "text": "Error"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.get_dialect",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Error",
+  "text": "Error"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Dialect",
+  "text": "Dialect"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.list_dialects",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.field_size_limit",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.DictReader",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/builtins/stdtypes.html#dict",
+  "text": "dict"
+ },
+ {
+  "href": "https://docs.python.org/3/glossary.html#term-sequence",
+  "text": "sequence"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.reader",
+  "text": "reader"
+ },
+ {
+  "href": "https://docs.python.org/3/builtins/stdtypes.html#list",
+  "text": "list"
+ },
+ {
+  "href": "https://docs.python.org/3/builtins/stdtypes.html#dict",
+  "text": "dict"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.DictWriter",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/collections.abc.html#module-collections.abc",
+  "text": "sequence"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.csvwriter.writerow",
+  "text": "writerow()"
+ },
+ {
+  "href": "https://docs.python.org/3/builtins/exceptions.html#ValueError",
+  "text": "ValueError"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.writer",
+  "text": "writer"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.DictReader",
+  "text": "DictReader"
+ },
+ {
+  "href": "https://docs.python.org/3/builtins/stdtypes.html#list",
+  "text": "list"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Dialect",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.reader",
+  "text": "reader"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.writer",
+  "text": "writer"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.list_dialects",
+  "text": "list_dialects()"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.reader",
+  "text": "reader"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.writer",
+  "text": "writer"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.excel",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.excel_tab",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.unix_dialect",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Sniffer",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Sniffer.sniff",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Dialect",
+  "text": "Dialect"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Sniffer.preferred",
+  "text": "preferred"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Sniffer.has_header",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/builtins/constants.html#True",
+  "text": "True"
+ },
+ {
+  "href": "https://docs.python.org/3/builtins/constants.html#True",
+  "text": "True"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Sniffer.preferred",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Sniffer",
+  "text": "Sniffer"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.QUOTE_ALL",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.writer",
+  "text": "writer"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.QUOTE_MINIMAL",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.writer",
+  "text": "writer"
+ },
+ {
+  "href": "https://docs.python.org/3/builtins/constants.html#False",
+  "text": "False"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.QUOTE_NONNUMERIC",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.writer",
+  "text": "writer"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.reader",
+  "text": "reader"
+ },
+ {
+  "href": "https://docs.python.org/3/builtins/functions.html#float",
+  "text": "float"
+ },
+ {
+  "href": "https://docs.python.org/3/builtins/functions.html#bool",
+  "text": "bool"
+ },
+ {
+  "href": "https://docs.python.org/3/library/fractions.html#fractions.Fraction",
+  "text": "Fraction"
+ },
+ {
+  "href": "https://docs.python.org/3/library/enum.html#enum.IntEnum",
+  "text": "IntEnum"
+ },
+ {
+  "href": "https://docs.python.org/3/builtins/functions.html#float",
+  "text": "float"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.QUOTE_STRINGS",
+  "text": "QUOTE_STRINGS"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.QUOTE_NONE",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.writer",
+  "text": "writer"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Error",
+  "text": "Error"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.reader",
+  "text": "reader"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.QUOTE_NOTNULL",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.writer",
+  "text": "writer"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.QUOTE_ALL",
+  "text": "QUOTE_ALL"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.reader",
+  "text": "reader"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.QUOTE_ALL",
+  "text": "QUOTE_ALL"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.QUOTE_STRINGS",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.writer",
+  "text": "writer"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.QUOTE_NONNUMERIC",
+  "text": "QUOTE_NONNUMERIC"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.reader",
+  "text": "reader"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.QUOTE_NONNUMERIC",
+  "text": "QUOTE_NONNUMERIC"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Error",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#dialects-and-formatting-parameters",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Dialect",
+  "text": "Dialect"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.reader",
+  "text": "reader"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.writer",
+  "text": "writer"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Dialect.delimiter",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Dialect.doublequote",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/builtins/constants.html#True",
+  "text": "True"
+ },
+ {
+  "href": "https://docs.python.org/3/builtins/constants.html#False",
+  "text": "False"
+ },
+ {
+  "href": "https://docs.python.org/3/builtins/constants.html#False",
+  "text": "False"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Error",
+  "text": "Error"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Dialect.escapechar",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.QUOTE_NONE",
+  "text": "QUOTE_NONE"
+ },
+ {
+  "href": "https://docs.python.org/3/builtins/constants.html#False",
+  "text": "False"
+ },
+ {
+  "href": "https://docs.python.org/3/builtins/constants.html#None",
+  "text": "None"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Dialect.lineterminator",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.writer",
+  "text": "writer"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.reader",
+  "text": "reader"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Dialect.quotechar",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.QUOTE_NONE",
+  "text": "QUOTE_NONE"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Dialect.quoting",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv-constants",
+  "text": "QUOTE_* constants"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.QUOTE_MINIMAL",
+  "text": "QUOTE_MINIMAL"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.QUOTE_NONE",
+  "text": "QUOTE_NONE"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Dialect.skipinitialspace",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/builtins/constants.html#True",
+  "text": "True"
+ },
+ {
+  "href": "https://docs.python.org/3/builtins/constants.html#False",
+  "text": "False"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Dialect.strict",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Error",
+  "text": "Error"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#reader-objects",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.DictReader",
+  "text": "DictReader"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.reader",
+  "text": "reader()"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.csvreader.__next__",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.reader",
+  "text": "reader()"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.DictReader",
+  "text": "DictReader"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Dialect",
+  "text": "Dialect"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.csvreader.dialect",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.csvreader.line_num",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.DictReader.fieldnames",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#writer-objects",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.writer",
+  "text": "writer"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.DictWriter",
+  "text": "DictWriter"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.writer",
+  "text": "writer()"
+ },
+ {
+  "href": "https://docs.python.org/3/builtins/stdtypes.html#str",
+  "text": "str()"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.csvwriter.writerow",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.Dialect",
+  "text": "Dialect"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.csvwriter.writerows",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.csvwriter.dialect",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.DictWriter.writeheader",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.csvwriter.writerow",
+  "text": "csvwriter.writerow()"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#csv.csvwriter.writerow",
+  "text": "csvwriter.writerow()"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#examples",
+  "text": "¶"
+ },
+ {
+  "href": "https://docs.python.org/3/builtins/functions.html#open",
+  "text": "open()"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#id1",
+  "text": "1"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#id2",
+  "text": "2"
+ },
+ {
+  "href": "https://docs.python.org/3/glossary.html#term-universal-newlines",
+  "text": "universal"
+ },
+ {
+  "href": "https://docs.python.org/3/contents.html",
+  "text": "Table of Contents"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#",
+  "text": "csv — CSV file reading and writing"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#module-contents",
+  "text": "Module contents"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#dialects-and-formatting-parameters",
+  "text": "Dialects and formatting parameters"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#reader-objects",
+  "text": "Reader objects"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#writer-objects",
+  "text": "Writer objects"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html#examples",
+  "text": "Examples"
+ },
+ {
+  "href": "https://docs.python.org/3/library/fileformats.html",
+  "text": "File Formats"
+ },
+ {
+  "href": "https://docs.python.org/3/library/configparser.html",
+  "text": "configparser — Configuration file parser"
+ },
+ {
+  "href": "https://docs.python.org/3/bugs.html",
+  "text": "Report a bug"
+ },
+ {
+  "href": "https://docs.python.org/3/improve-page.html?pagetitle=csv+%E2%80%94+CSV+file+reading+and+writing&pageurl=https%3A%2F%2Fdocs.python.org%2F3%2Flibrary%2Fcsv.html&pagesource=library%2Fcsv.rst",
+  "text": "Improve this page"
+ },
+ {
+  "href": "https://github.com/python/cpython/blob/3.15/Doc/library/csv.rst?plain=1",
+  "text": "Show source"
+ },
+ {
+  "href": "https://docs.python.org/3/genindex.html",
+  "text": "index"
+ },
+ {
+  "href": "https://docs.python.org/3/py-modindex.html",
+  "text": "modules"
+ },
+ {
+  "href": "https://docs.python.org/3/library/configparser.html",
+  "text": "next"
+ },
+ {
+  "href": "https://docs.python.org/3/library/fileformats.html",
+  "text": "previous"
+ },
+ {
+  "href": "https://www.python.org/",
+  "text": "Python"
+ },
+ {
+  "href": "https://docs.python.org/3/index.html",
+  "text": "3.15.2 documentation"
+ },
+ {
+  "href": "https://docs.python.org/3/library/index.html",
+  "text": "The Python standard library"
+ },
+ {
+  "href": "https://docs.python.org/3/library/fileformats.html",
+  "text": "File Formats"
+ },
+ {
+  "href": "https://docs.python.org/3/library/csv.html",
+  "text": "csv — CSV file reading and writing"
+ },
+ {
+  "href": "https://docs.python.org/3/copyright.html",
+  "text": "Copyright"
+ },
+ {
+  "href": "https://docs.python.org/license.html",
+  "text": "History and License"
+ },
+ {
+  "href": "https://www.python.org/psf/donations/",
+  "text": "Please donate."
+ },
+ {
+  "href": "https://docs.python.org/bugs.html",
+  "text": "Found a bug"
+ },
+ {
+  "href": "https://www.sphinx-doc.org/",
+  "text": "Sphinx"
+ }
+]

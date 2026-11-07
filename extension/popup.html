@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Link Exporter</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <img src="icons/icon32.png" alt="" width="20" height="20" />
+        <h1>Link Exporter</h1>
+      </div>
+      <a id="open-options" href="#" title="Settings">Settings</a>
+    </header>
+
+    <p id="page" class="page"></p>
+
+    <div class="controls">
+      <input id="query" type="search" placeholder="Filter by text or URL…" autocomplete="off" />
+      <div class="scope" role="radiogroup" aria-label="Link scope">
+        <label><input type="radio" name="scope" value="all" checked /> All</label>
+        <label><input type="radio" name="scope" value="internal" /> Internal</label>
+        <label><input type="radio" name="scope" value="external" /> External</label>
+      </div>
+    </div>
+
+    <p id="count" class="count" aria-live="polite"></p>
+    <ul id="list" class="list"></ul>
+    <p id="error" class="error" hidden></p>
+
+    <footer>
+      <select id="format" aria-label="Export format">
+        <option value="csv">CSV</option>
+        <option value="md">Markdown</option>
+        <option value="txt">URLs</option>
+      </select>
+      <button id="copy" type="button">Copy</button>
+      <button id="download" type="button" class="primary">Download</button>
+    </footer>
+
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>
