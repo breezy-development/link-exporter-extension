@@ -1,5 +1,7 @@
 # Link Exporter (Chrome extension)
 
+[![tests](https://github.com/breezy-development/link-exporter-extension/actions/workflows/tests.yml/badge.svg)](https://github.com/breezy-development/link-exporter-extension/actions/workflows/tests.yml) ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+
 A small Manifest V3 Chrome extension that lists every link on the page you're looking at, lets
 you filter them, and exports them as **CSV, Markdown or a plain URL list**. It's handy for SEO
 audits, research notes, and checking a page's outbound links.
